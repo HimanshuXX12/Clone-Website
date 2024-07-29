@@ -1,0 +1,211 @@
+@media  screen and (max-width:990px)
+{
+
+
+    h3{
+        font-size: .9rem;
+    }
+    
+    
+.hum_burger
+{
+    display: block;
+}
+
+ .links
+{
+   display:none;
+}
+
+.root{
+    width:100%;
+    text-align: center;
+}
+
+.snake{
+  
+    color:black;
+    font-family: bold;
+    padding:0.2rem;
+
+}
+
+   
+    
+
+
+.active
+{
+    display:block;
+   
+    position: absolute;
+    background-color: white;
+    left:0%;
+    top:120%;
+    width:100%;
+}
+
+
+
+.main-nav{
+    position: relative;
+    overflow: initial;
+    
+}
+
+.links ul{
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+.logos{
+    justify-content: space-evenly;
+    gap:20px;
+}
+
+
+
+#examples_card{
+    width:48%;
+    height:180px;
+
+}
+
+.examples_templates
+{
+    gap:1px;
+}
+
+
+.header-right img{
+
+      width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:767px)
+{
+
+    .header-section
+    {
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+
+
+    .left-header{
+        max-width:100vw;
+    }
+    
+
+    .secondary-button
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .first_feature
+    {
+        max-width: cal(50% - 10px);
+    }
+
+
+    .pre_footer{
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+        text-align: center;
+    }
+
+
+    .list_column{
+        align-items: stretch;
+    }
+
+    .sublooter-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:479px)
+{
+
+   
+    :root
+    {
+        --padding-inline:4px;
+    }
+
+    h1{
+        font-size:1.82rem;
+    
+    }
+    
+    h2{
+        font-size:0.87rem;
+    }
+
+
+    p{
+        font-size:.71rem;
+        line-height: 1.4rem;
+    }
+
+    .first_feature
+     {
+
+        min-width:100%;
+
+     }
+     
+
+     #examples_card{
+
+       min-width:109%;
+       height:1.4rem;
+
+     }
+
+
+     
+     .left-company-header{
+        margin-top:3.2rem;
+     }
+
+
+     
+
+
+     .companies-section{
+        margin-top:5.9rem;
+     }
+    
+    
+}
+
+
+
+
+
+
+
